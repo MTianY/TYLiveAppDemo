@@ -25,12 +25,16 @@
     [self loadData];
 }
 
+#pragma mark - 界面消失,停止播放,否则会报内存溢出
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.ijkFFMoviePlayerVc pause];
+    [self.ijkFFMoviePlayerVc stop];
+}
+
 #pragma mark - LoadData
 
 - (void)loadData {
-    NSLog(@"怎么播放不了啊....😞😞😞😞");
-    NSString *placeholderStr = self.liveModel.creator.portrait;
-    [self.liveImageView sd_setImageWithURL:[NSURL URLWithString:placeholderStr] placeholderImage:nil];
     
     // 拉流地址
     NSString *urlStr = self.liveModel.stream_addr;

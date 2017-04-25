@@ -39,7 +39,6 @@
     // 取消系统的分割线
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.backgroundColor = [UIColor colorWithRed:248/255.0 green:248/255.0 blue:248/255.0 alpha:1.0];
-    
     [self loadData];
 }
 
@@ -92,6 +91,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     TYLiveRoomViewController *liveRoomVc = [[TYLiveRoomViewController alloc] init];
+    liveRoomVc.liveModel = self.lives[indexPath.row];
     [self presentViewController:liveRoomVc animated:YES completion:nil];
 }
 

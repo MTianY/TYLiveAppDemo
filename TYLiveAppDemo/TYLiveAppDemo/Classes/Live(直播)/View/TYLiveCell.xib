@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="312" id="KGk-i7-Jjw" customClass="TYLiveCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="312"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="311.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oXo-fc-RwH">
+                        <rect key="frame" x="0.0" y="60" width="320" height="251.5"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ffE-B8-Fqs">
+                        <rect key="frame" x="10" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="0hf-9Z-p8u"/>
+                            <constraint firstAttribute="height" constant="40" id="v9t-H1-Dp8"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主播名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIc-cV-Q5A">
+                        <rect key="frame" x="60" y="10" width="46" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主播地址" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPL-tt-XZi">
+                        <rect key="frame" x="60" y="34" width="53.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="观看人数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-kn-Mgk">
+                        <rect key="frame" x="252.5" y="10" width="57.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="直播" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vg8-6k-dcM">
+                        <rect key="frame" x="260" y="77" width="50" height="20"/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="BTQ-Io-o3k"/>
+                            <constraint firstAttribute="width" constant="50" id="b2p-mg-ONx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vg8-6k-dcM" firstAttribute="top" secondItem="vFn-kn-Mgk" secondAttribute="bottom" constant="50" id="4gO-Ub-lCu"/>
+                    <constraint firstItem="CIc-cV-Q5A" firstAttribute="leading" secondItem="ffE-B8-Fqs" secondAttribute="trailing" constant="10" id="7Pd-pu-Y6O"/>
+                    <constraint firstItem="oXo-fc-RwH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8hr-VT-Xra"/>
+                    <constraint firstItem="SPL-tt-XZi" firstAttribute="bottom" secondItem="ffE-B8-Fqs" secondAttribute="bottom" id="FKL-Bj-ogj"/>
+                    <constraint firstItem="oXo-fc-RwH" firstAttribute="top" secondItem="SPL-tt-XZi" secondAttribute="bottom" constant="10" id="FmF-WG-CB4"/>
+                    <constraint firstAttribute="bottom" secondItem="oXo-fc-RwH" secondAttribute="bottom" id="J7f-GL-RdU"/>
+                    <constraint firstAttribute="trailing" secondItem="vFn-kn-Mgk" secondAttribute="trailing" constant="10" id="OrO-WB-phi"/>
+                    <constraint firstItem="vg8-6k-dcM" firstAttribute="trailing" secondItem="vFn-kn-Mgk" secondAttribute="trailing" id="cJ9-lS-GpP"/>
+                    <constraint firstItem="vFn-kn-Mgk" firstAttribute="top" secondItem="CIc-cV-Q5A" secondAttribute="top" id="dAs-xv-WLU"/>
+                    <constraint firstItem="SPL-tt-XZi" firstAttribute="leading" secondItem="ffE-B8-Fqs" secondAttribute="trailing" constant="10" id="ikQ-in-tMu"/>
+                    <constraint firstItem="CIc-cV-Q5A" firstAttribute="top" secondItem="ffE-B8-Fqs" secondAttribute="top" id="qSG-X7-tJy"/>
+                    <constraint firstItem="ffE-B8-Fqs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="vOZ-zU-9Jb"/>
+                    <constraint firstItem="ffE-B8-Fqs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="wcg-9t-chy"/>
+                    <constraint firstAttribute="trailing" secondItem="oXo-fc-RwH" secondAttribute="trailing" id="yzX-vX-UnC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="anchorAddressLabel" destination="SPL-tt-XZi" id="pZj-Om-KiU"/>
+                <outlet property="anchorIconImageView" destination="ffE-B8-Fqs" id="yEH-kw-mTc"/>
+                <outlet property="anchorLivePhotoImageView" destination="oXo-fc-RwH" id="ALz-Ym-paV"/>
+                <outlet property="anchorNameLabel" destination="CIc-cV-Q5A" id="8Jq-kA-CLE"/>
+                <outlet property="audienceCountLabel" destination="vFn-kn-Mgk" id="rvZ-zv-awH"/>
+                <outlet property="identifyLabel" destination="vg8-6k-dcM" id="YxK-EV-qR0"/>
+            </connections>
+            <point key="canvasLocation" x="53" y="70"/>
+        </tableViewCell>
+    </objects>
+</document>

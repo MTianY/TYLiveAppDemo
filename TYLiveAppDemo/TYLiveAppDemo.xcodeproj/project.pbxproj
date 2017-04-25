@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CC3A0CD1EAF1B28009B209B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0CC1EAF1B28009B209B /* main.m */; };
+		4CC3A0D01EAF1B28009B209B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0CF1EAF1B28009B209B /* AppDelegate.m */; };
+		4CC3A0D81EAF1B28009B209B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC3A0D71EAF1B28009B209B /* Assets.xcassets */; };
+		4CC3A0DB1EAF1B28009B209B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC3A0D91EAF1B28009B209B /* LaunchScreen.storyboard */; };
+		4CC3A0ED1EAF1BC0009B209B /* TYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0EC1EAF1BC0009B209B /* TYTabBarViewController.m */; };
+		4CC3A0F51EAF1D2E009B209B /* TYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0F31EAF1D2E009B209B /* TYHomeViewController.m */; };
+		4CC3A0F61EAF1D2E009B209B /* TYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC3A0F41EAF1D2E009B209B /* TYHomeViewController.xib */; };
+		4CC3A0F91EAF1E21009B209B /* TYLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0F81EAF1E21009B209B /* TYLiveViewController.m */; };
+		4CC3A0FE1EAF2057009B209B /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A0FD1EAF2057009B209B /* IJKMediaFramework.framework */; };
+		4CC3A1011EAF2091009B209B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1001EAF2091009B209B /* AudioToolbox.framework */; };
+		4CC3A1031EAF2098009B209B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1021EAF2098009B209B /* AVFoundation.framework */; };
+		4CC3A1051EAF20A2009B209B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1041EAF20A2009B209B /* CoreGraphics.framework */; };
+		4CC3A1071EAF20A8009B209B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1061EAF20A8009B209B /* CoreMedia.framework */; };
+		4CC3A1091EAF20AE009B209B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1081EAF20AE009B209B /* CoreVideo.framework */; };
+		4CC3A10B1EAF20B6009B209B /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A10A1EAF20B6009B209B /* libbz2.tbd */; };
+		4CC3A10D1EAF20C2009B209B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A10C1EAF20C2009B209B /* libz.tbd */; };
+		4CC3A10F1EAF20CA009B209B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A10E1EAF20CA009B209B /* MediaPlayer.framework */; };
+		4CC3A1111EAF20D2009B209B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1101EAF20D2009B209B /* MobileCoreServices.framework */; };
+		4CC3A1131EAF20DB009B209B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1121EAF20DB009B209B /* OpenGLES.framework */; };
+		4CC3A1151EAF20E2009B209B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1141EAF20E2009B209B /* QuartzCore.framework */; };
+		4CC3A1171EAF20E7009B209B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1161EAF20E7009B209B /* UIKit.framework */; };
+		4CC3A1191EAF20ED009B209B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1181EAF20ED009B209B /* VideoToolbox.framework */; };
+		4CC3A11D1EAF3A55009B209B /* TYLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A11B1EAF3A55009B209B /* TYLiveCell.m */; };
+		4CC3A11E1EAF3A55009B209B /* TYLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC3A11C1EAF3A55009B209B /* TYLiveCell.xib */; };
+		4CC3A1211EAF3D91009B209B /* TYCreatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A1201EAF3D91009B209B /* TYCreatorModel.m */; };
+		4CC3A1241EAF3E03009B209B /* TYLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A1231EAF3E03009B209B /* TYLiveModel.m */; };
+		4CC3A1281EAF5A79009B209B /* TYLiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A1261EAF5A79009B209B /* TYLiveRoomViewController.m */; };
+		4CC3A1291EAF5A79009B209B /* TYLiveRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC3A1271EAF5A79009B209B /* TYLiveRoomViewController.xib */; };
+		74C13267DFB8F56A3B4D61D3 /* libPods-TYLiveAppDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFB355BCE67699295B4876D /* libPods-TYLiveAppDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CC3A0C81EAF1B28009B209B /* TYLiveAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYLiveAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC3A0CC1EAF1B28009B209B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CC3A0CE1EAF1B28009B209B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CC3A0CF1EAF1B28009B209B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CC3A0D71EAF1B28009B209B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CC3A0DA1EAF1B28009B209B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CC3A0DC1EAF1B28009B209B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC3A0EB1EAF1BC0009B209B /* TYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabBarViewController.h; sourceTree = "<group>"; };
+		4CC3A0EC1EAF1BC0009B209B /* TYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabBarViewController.m; sourceTree = "<group>"; };
+		4CC3A0F21EAF1D2E009B209B /* TYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHomeViewController.h; sourceTree = "<group>"; };
+		4CC3A0F31EAF1D2E009B209B /* TYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHomeViewController.m; sourceTree = "<group>"; };
+		4CC3A0F41EAF1D2E009B209B /* TYHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYHomeViewController.xib; sourceTree = "<group>"; };
+		4CC3A0F71EAF1E21009B209B /* TYLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLiveViewController.h; sourceTree = "<group>"; };
+		4CC3A0F81EAF1E21009B209B /* TYLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLiveViewController.m; sourceTree = "<group>"; };
+		4CC3A0FD1EAF2057009B209B /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		4CC3A1001EAF2091009B209B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4CC3A1021EAF2098009B209B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4CC3A1041EAF20A2009B209B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CC3A1061EAF20A8009B209B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4CC3A1081EAF20AE009B209B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4CC3A10A1EAF20B6009B209B /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		4CC3A10C1EAF20C2009B209B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4CC3A10E1EAF20CA009B209B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4CC3A1101EAF20D2009B209B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4CC3A1121EAF20DB009B209B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4CC3A1141EAF20E2009B209B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4CC3A1161EAF20E7009B209B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CC3A1181EAF20ED009B209B /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		4CC3A11A1EAF3A55009B209B /* TYLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLiveCell.h; sourceTree = "<group>"; };
+		4CC3A11B1EAF3A55009B209B /* TYLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLiveCell.m; sourceTree = "<group>"; };
+		4CC3A11C1EAF3A55009B209B /* TYLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYLiveCell.xib; sourceTree = "<group>"; };
+		4CC3A11F1EAF3D91009B209B /* TYCreatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCreatorModel.h; sourceTree = "<group>"; };
+		4CC3A1201EAF3D91009B209B /* TYCreatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCreatorModel.m; sourceTree = "<group>"; };
+		4CC3A1221EAF3E03009B209B /* TYLiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLiveModel.h; sourceTree = "<group>"; };
+		4CC3A1231EAF3E03009B209B /* TYLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLiveModel.m; sourceTree = "<group>"; };
+		4CC3A1251EAF5A79009B209B /* TYLiveRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLiveRoomViewController.h; sourceTree = "<group>"; };
+		4CC3A1261EAF5A79009B209B /* TYLiveRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLiveRoomViewController.m; sourceTree = "<group>"; };
+		4CC3A1271EAF5A79009B209B /* TYLiveRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYLiveRoomViewController.xib; sourceTree = "<group>"; };
+		5148F84F890C2D61803F261F /* Pods-TYLiveAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYLiveAppDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYLiveAppDemo/Pods-TYLiveAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B01DEDBCDD4E5F9A3D904433 /* Pods-TYLiveAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYLiveAppDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYLiveAppDemo/Pods-TYLiveAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FDFB355BCE67699295B4876D /* libPods-TYLiveAppDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYLiveAppDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CC3A0C51EAF1B27009B209B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC3A1191EAF20ED009B209B /* VideoToolbox.framework in Frameworks */,
+				4CC3A1171EAF20E7009B209B /* UIKit.framework in Frameworks */,
+				4CC3A1151EAF20E2009B209B /* QuartzCore.framework in Frameworks */,
+				4CC3A1131EAF20DB009B209B /* OpenGLES.framework in Frameworks */,
+				4CC3A1111EAF20D2009B209B /* MobileCoreServices.framework in Frameworks */,
+				4CC3A10F1EAF20CA009B209B /* MediaPlayer.framework in Frameworks */,
+				4CC3A10D1EAF20C2009B209B /* libz.tbd in Frameworks */,
+				4CC3A10B1EAF20B6009B209B /* libbz2.tbd in Frameworks */,
+				4CC3A1091EAF20AE009B209B /* CoreVideo.framework in Frameworks */,
+				4CC3A1071EAF20A8009B209B /* CoreMedia.framework in Frameworks */,
+				4CC3A1051EAF20A2009B209B /* CoreGraphics.framework in Frameworks */,
+				4CC3A1031EAF2098009B209B /* AVFoundation.framework in Frameworks */,
+				4CC3A1011EAF2091009B209B /* AudioToolbox.framework in Frameworks */,
+				4CC3A0FE1EAF2057009B209B /* IJKMediaFramework.framework in Frameworks */,
+				74C13267DFB8F56A3B4D61D3 /* libPods-TYLiveAppDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC3A0BF1EAF1B27009B209B = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0CA1EAF1B28009B209B /* TYLiveAppDemo */,
+				4CC3A0C91EAF1B28009B209B /* Products */,
+				4CC3A0FF1EAF2090009B209B /* Frameworks */,
+				EF3F4DAA7565F3E64B539785 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4CC3A0C91EAF1B28009B209B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0C81EAF1B28009B209B /* TYLiveAppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC3A0CA1EAF1B28009B209B /* TYLiveAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0E21EAF1B7A009B209B /* Classes */,
+				4CC3A0CE1EAF1B28009B209B /* AppDelegate.h */,
+				4CC3A0CF1EAF1B28009B209B /* AppDelegate.m */,
+				4CC3A0D71EAF1B28009B209B /* Assets.xcassets */,
+				4CC3A0D91EAF1B28009B209B /* LaunchScreen.storyboard */,
+				4CC3A0DC1EAF1B28009B209B /* Info.plist */,
+				4CC3A0CB1EAF1B28009B209B /* Supporting Files */,
+			);
+			path = TYLiveAppDemo;
+			sourceTree = "<group>";
+		};
+		4CC3A0CB1EAF1B28009B209B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0CC1EAF1B28009B209B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CC3A0E21EAF1B7A009B209B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0FB1EAF203B009B209B /* ijkplayer */,
+				4CC3A0EE1EAF1D1A009B209B /* Home */,
+				4CC3A0E31EAF1B7A009B209B /* Live(直播) */,
+				4CC3A0E71EAF1B7A009B209B /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4CC3A0E31EAF1B7A009B209B /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0E41EAF1B7A009B209B /* Controller */,
+				4CC3A0E51EAF1B7A009B209B /* Model */,
+				4CC3A0E61EAF1B7A009B209B /* View */,
+			);
+			path = "Live(直播)";
+			sourceTree = "<group>";
+		};
+		4CC3A0E41EAF1B7A009B209B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0F71EAF1E21009B209B /* TYLiveViewController.h */,
+				4CC3A0F81EAF1E21009B209B /* TYLiveViewController.m */,
+				4CC3A1251EAF5A79009B209B /* TYLiveRoomViewController.h */,
+				4CC3A1261EAF5A79009B209B /* TYLiveRoomViewController.m */,
+				4CC3A1271EAF5A79009B209B /* TYLiveRoomViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CC3A0E51EAF1B7A009B209B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A1221EAF3E03009B209B /* TYLiveModel.h */,
+				4CC3A1231EAF3E03009B209B /* TYLiveModel.m */,
+				4CC3A11F1EAF3D91009B209B /* TYCreatorModel.h */,
+				4CC3A1201EAF3D91009B209B /* TYCreatorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CC3A0E61EAF1B7A009B209B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A11A1EAF3A55009B209B /* TYLiveCell.h */,
+				4CC3A11B1EAF3A55009B209B /* TYLiveCell.m */,
+				4CC3A11C1EAF3A55009B209B /* TYLiveCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CC3A0E71EAF1B7A009B209B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0E81EAF1B7A009B209B /* Controller */,
+				4CC3A0E91EAF1B7A009B209B /* Model */,
+				4CC3A0EA1EAF1B7A009B209B /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4CC3A0E81EAF1B7A009B209B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0EB1EAF1BC0009B209B /* TYTabBarViewController.h */,
+				4CC3A0EC1EAF1BC0009B209B /* TYTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CC3A0E91EAF1B7A009B209B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CC3A0EA1EAF1B7A009B209B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CC3A0EE1EAF1D1A009B209B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0EF1EAF1D1A009B209B /* Controller */,
+				4CC3A0F01EAF1D1A009B209B /* Model */,
+				4CC3A0F11EAF1D1A009B209B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4CC3A0EF1EAF1D1A009B209B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0F21EAF1D2E009B209B /* TYHomeViewController.h */,
+				4CC3A0F31EAF1D2E009B209B /* TYHomeViewController.m */,
+				4CC3A0F41EAF1D2E009B209B /* TYHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CC3A0F01EAF1D1A009B209B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CC3A0F11EAF1D1A009B209B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CC3A0FB1EAF203B009B209B /* ijkplayer */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0FC1EAF203B009B209B /* lib */,
+			);
+			path = ijkplayer;
+			sourceTree = "<group>";
+		};
+		4CC3A0FC1EAF203B009B209B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A0FD1EAF2057009B209B /* IJKMediaFramework.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		4CC3A0FF1EAF2090009B209B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3A1181EAF20ED009B209B /* VideoToolbox.framework */,
+				4CC3A1161EAF20E7009B209B /* UIKit.framework */,
+				4CC3A1141EAF20E2009B209B /* QuartzCore.framework */,
+				4CC3A1121EAF20DB009B209B /* OpenGLES.framework */,
+				4CC3A1101EAF20D2009B209B /* MobileCoreServices.framework */,
+				4CC3A10E1EAF20CA009B209B /* MediaPlayer.framework */,
+				4CC3A10C1EAF20C2009B209B /* libz.tbd */,
+				4CC3A10A1EAF20B6009B209B /* libbz2.tbd */,
+				4CC3A1081EAF20AE009B209B /* CoreVideo.framework */,
+				4CC3A1061EAF20A8009B209B /* CoreMedia.framework */,
+				4CC3A1041EAF20A2009B209B /* CoreGraphics.framework */,
+				4CC3A1021EAF2098009B209B /* AVFoundation.framework */,
+				4CC3A1001EAF2091009B209B /* AudioToolbox.framework */,
+				FDFB355BCE67699295B4876D /* libPods-TYLiveAppDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF3F4DAA7565F3E64B539785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B01DEDBCDD4E5F9A3D904433 /* Pods-TYLiveAppDemo.debug.xcconfig */,
+				5148F84F890C2D61803F261F /* Pods-TYLiveAppDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CC3A0C71EAF1B27009B209B /* TYLiveAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC3A0DF1EAF1B28009B209B /* Build configuration list for PBXNativeTarget "TYLiveAppDemo" */;
+			buildPhases = (
+				E84C42DC5F94A169EC24E967 /* [CP] Check Pods Manifest.lock */,
+				4CC3A0C41EAF1B27009B209B /* Sources */,
+				4CC3A0C51EAF1B27009B209B /* Frameworks */,
+				4CC3A0C61EAF1B27009B209B /* Resources */,
+				FF7D2A10772D64AF5810F289 /* [CP] Embed Pods Frameworks */,
+				65C54C4D1A1DB9CA793C9655 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYLiveAppDemo;
+			productName = TYLiveAppDemo;
+			productReference = 4CC3A0C81EAF1B28009B209B /* TYLiveAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CC3A0C01EAF1B27009B209B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MTY;
+				TargetAttributes = {
+					4CC3A0C71EAF1B27009B209B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = FGL7E5MTW2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4CC3A0C31EAF1B27009B209B /* Build configuration list for PBXProject "TYLiveAppDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CC3A0BF1EAF1B27009B209B;
+			productRefGroup = 4CC3A0C91EAF1B28009B209B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CC3A0C71EAF1B27009B209B /* TYLiveAppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CC3A0C61EAF1B27009B209B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC3A11E1EAF3A55009B209B /* TYLiveCell.xib in Resources */,
+				4CC3A0F61EAF1D2E009B209B /* TYHomeViewController.xib in Resources */,
+				4CC3A0DB1EAF1B28009B209B /* LaunchScreen.storyboard in Resources */,
+				4CC3A0D81EAF1B28009B209B /* Assets.xcassets in Resources */,
+				4CC3A1291EAF5A79009B209B /* TYLiveRoomViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65C54C4D1A1DB9CA793C9655 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYLiveAppDemo/Pods-TYLiveAppDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84C42DC5F94A169EC24E967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7D2A10772D64AF5810F289 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYLiveAppDemo/Pods-TYLiveAppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC3A0C41EAF1B27009B209B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC3A1211EAF3D91009B209B /* TYCreatorModel.m in Sources */,
+				4CC3A11D1EAF3A55009B209B /* TYLiveCell.m in Sources */,
+				4CC3A0F91EAF1E21009B209B /* TYLiveViewController.m in Sources */,
+				4CC3A0ED1EAF1BC0009B209B /* TYTabBarViewController.m in Sources */,
+				4CC3A0D01EAF1B28009B209B /* AppDelegate.m in Sources */,
+				4CC3A0F51EAF1D2E009B209B /* TYHomeViewController.m in Sources */,
+				4CC3A1241EAF3E03009B209B /* TYLiveModel.m in Sources */,
+				4CC3A0CD1EAF1B28009B209B /* main.m in Sources */,
+				4CC3A1281EAF5A79009B209B /* TYLiveRoomViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CC3A0D91EAF1B28009B209B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC3A0DA1EAF1B28009B209B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CC3A0DD1EAF1B28009B209B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CC3A0DE1EAF1B28009B209B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CC3A0E01EAF1B28009B209B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01DEDBCDD4E5F9A3D904433 /* Pods-TYLiveAppDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FGL7E5MTW2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TYLiveAppDemo/Classes/ijkplayer/lib",
+				);
+				INFOPLIST_FILE = TYLiveAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.QRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CC3A0E11EAF1B28009B209B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5148F84F890C2D61803F261F /* Pods-TYLiveAppDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FGL7E5MTW2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TYLiveAppDemo/Classes/ijkplayer/lib",
+				);
+				INFOPLIST_FILE = TYLiveAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.QRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CC3A0C31EAF1B27009B209B /* Build configuration list for PBXProject "TYLiveAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC3A0DD1EAF1B28009B209B /* Debug */,
+				4CC3A0DE1EAF1B28009B209B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC3A0DF1EAF1B28009B209B /* Build configuration list for PBXNativeTarget "TYLiveAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC3A0E01EAF1B28009B209B /* Debug */,
+				4CC3A0E11EAF1B28009B209B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CC3A0C01EAF1B27009B209B /* Project object */;
+}

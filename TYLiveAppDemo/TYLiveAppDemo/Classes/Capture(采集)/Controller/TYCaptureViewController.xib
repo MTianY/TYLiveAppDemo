@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TYCaptureViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="gk9-TA-omN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNA-Yf-Ynh">
+                    <rect key="frame" x="44" y="100" width="62" height="30"/>
+                    <state key="normal" title="结束采集"/>
+                    <connections>
+                        <action selector="stopCaptureMethod:" destination="-1" eventType="touchUpInside" id="PAF-Ql-x50"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTE-8L-HNu">
+                    <rect key="frame" x="254" y="100" width="77" height="30"/>
+                    <state key="normal" title="切换摄像头"/>
+                    <connections>
+                        <action selector="SWAPMethod:" destination="-1" eventType="touchUpInside" id="S2t-mK-bjP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iNA-Yf-Ynh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="19g-uN-6bV"/>
+                <constraint firstAttribute="trailing" secondItem="cTE-8L-HNu" secondAttribute="trailing" constant="44" id="eAM-Dx-ohD"/>
+                <constraint firstItem="cTE-8L-HNu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="fIU-Se-Pa7"/>
+                <constraint firstItem="iNA-Yf-Ynh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="44" id="ufe-b4-YOg"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -50,7 +50,8 @@
 
 - (void)loadData {
     
-    NSString *urlStr = @"http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1";
+//    NSString *urlStr = @"http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1";
+    NSString *urlStr = YKURL;
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
     mgr.responseSerializer = [AFJSONResponseSerializer serializer];
     mgr.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/plain", nil];

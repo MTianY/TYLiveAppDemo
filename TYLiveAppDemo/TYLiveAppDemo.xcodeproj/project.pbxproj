@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C8E1D861EB18A0E003BCFF7 /* TYCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E1D851EB18A0E003BCFF7 /* TYCaptureViewController.m */; };
+		4C8E1D881EB1A04C003BCFF7 /* TYCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E1D871EB1A04C003BCFF7 /* TYCaptureViewController.xib */; };
 		4CC3A0CD1EAF1B28009B209B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0CC1EAF1B28009B209B /* main.m */; };
 		4CC3A0D01EAF1B28009B209B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0CF1EAF1B28009B209B /* AppDelegate.m */; };
 		4CC3A0D81EAF1B28009B209B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC3A0D71EAF1B28009B209B /* Assets.xcassets */; };
@@ -39,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C8E1D841EB18A0D003BCFF7 /* TYCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCaptureViewController.h; sourceTree = "<group>"; };
+		4C8E1D851EB18A0E003BCFF7 /* TYCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCaptureViewController.m; sourceTree = "<group>"; };
+		4C8E1D871EB1A04C003BCFF7 /* TYCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYCaptureViewController.xib; sourceTree = "<group>"; };
 		4CC3A0C81EAF1B28009B209B /* TYLiveAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYLiveAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC3A0CC1EAF1B28009B209B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CC3A0CE1EAF1B28009B209B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +82,7 @@
 		4CC3A1251EAF5A79009B209B /* TYLiveRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLiveRoomViewController.h; sourceTree = "<group>"; };
 		4CC3A1261EAF5A79009B209B /* TYLiveRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLiveRoomViewController.m; sourceTree = "<group>"; };
 		4CC3A1271EAF5A79009B209B /* TYLiveRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYLiveRoomViewController.xib; sourceTree = "<group>"; };
+		4CE61DF41EAF9B9900BD70E9 /* Readme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Readme.m; sourceTree = "<group>"; };
 		5148F84F890C2D61803F261F /* Pods-TYLiveAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYLiveAppDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYLiveAppDemo/Pods-TYLiveAppDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B01DEDBCDD4E5F9A3D904433 /* Pods-TYLiveAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYLiveAppDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYLiveAppDemo/Pods-TYLiveAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FDFB355BCE67699295B4876D /* libPods-TYLiveAppDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYLiveAppDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,9 +114,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C8E1D7D1EB181DC003BCFF7 /* Capture(采集) */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E1D7E1EB181DC003BCFF7 /* Controller */,
+				4C8E1D7F1EB181DC003BCFF7 /* Model */,
+				4C8E1D801EB181DC003BCFF7 /* View */,
+			);
+			path = "Capture(采集)";
+			sourceTree = "<group>";
+		};
+		4C8E1D7E1EB181DC003BCFF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E1D841EB18A0D003BCFF7 /* TYCaptureViewController.h */,
+				4C8E1D851EB18A0E003BCFF7 /* TYCaptureViewController.m */,
+				4C8E1D871EB1A04C003BCFF7 /* TYCaptureViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C8E1D7F1EB181DC003BCFF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C8E1D801EB181DC003BCFF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4CC3A0BF1EAF1B27009B209B = {
 			isa = PBXGroup;
 			children = (
+				4CE61DF41EAF9B9900BD70E9 /* Readme.m */,
 				4CC3A0CA1EAF1B28009B209B /* TYLiveAppDemo */,
 				4CC3A0C91EAF1B28009B209B /* Products */,
 				4CC3A0FF1EAF2090009B209B /* Frameworks */,
@@ -154,6 +195,7 @@
 				4CC3A0FB1EAF203B009B209B /* ijkplayer */,
 				4CC3A0EE1EAF1D1A009B209B /* Home */,
 				4CC3A0E31EAF1B7A009B209B /* Live(直播) */,
+				4C8E1D7D1EB181DC003BCFF7 /* Capture(采集) */,
 				4CC3A0E71EAF1B7A009B209B /* Main */,
 			);
 			path = Classes;
@@ -377,6 +419,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8E1D881EB1A04C003BCFF7 /* TYCaptureViewController.xib in Resources */,
 				4CC3A11E1EAF3A55009B209B /* TYLiveCell.xib in Resources */,
 				4CC3A0F61EAF1D2E009B209B /* TYHomeViewController.xib in Resources */,
 				4CC3A0DB1EAF1B28009B209B /* LaunchScreen.storyboard in Resources */,
@@ -446,6 +489,7 @@
 				4CC3A0ED1EAF1BC0009B209B /* TYTabBarViewController.m in Sources */,
 				4CC3A0D01EAF1B28009B209B /* AppDelegate.m in Sources */,
 				4CC3A0F51EAF1D2E009B209B /* TYHomeViewController.m in Sources */,
+				4C8E1D861EB18A0E003BCFF7 /* TYCaptureViewController.m in Sources */,
 				4CC3A1241EAF3E03009B209B /* TYLiveModel.m in Sources */,
 				4CC3A0CD1EAF1B28009B209B /* main.m in Sources */,
 				4CC3A1281EAF5A79009B209B /* TYLiveRoomViewController.m in Sources */,

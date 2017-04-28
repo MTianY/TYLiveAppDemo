@@ -6,6 +6,10 @@
 //  Copyright © 2017年 MTY. All rights reserved.
 //
 
+/*
+ * AVFoundation 实现采集功能
+ */
+
 #import "TYCaptureViewController.h"
 #import <AVFoundation/AVFoundation.h>
 

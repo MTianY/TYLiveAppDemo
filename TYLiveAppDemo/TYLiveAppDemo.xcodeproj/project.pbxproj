@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4C8E1D861EB18A0E003BCFF7 /* TYCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E1D851EB18A0E003BCFF7 /* TYCaptureViewController.m */; };
 		4C8E1D881EB1A04C003BCFF7 /* TYCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E1D871EB1A04C003BCFF7 /* TYCaptureViewController.xib */; };
+		4CBA9B611EB1D80B00373487 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBA9B601EB1D80B00373487 /* IJKMediaFramework.framework */; };
+		4CBA9B8F1EB2DA6000373487 /* TYBeautyFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA9B8D1EB2DA6000373487 /* TYBeautyFilterViewController.m */; };
+		4CBA9B901EB2DA6000373487 /* TYBeautyFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBA9B8E1EB2DA6000373487 /* TYBeautyFilterViewController.xib */; };
 		4CC3A0CD1EAF1B28009B209B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0CC1EAF1B28009B209B /* main.m */; };
 		4CC3A0D01EAF1B28009B209B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0CF1EAF1B28009B209B /* AppDelegate.m */; };
 		4CC3A0D81EAF1B28009B209B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC3A0D71EAF1B28009B209B /* Assets.xcassets */; };
@@ -17,7 +20,6 @@
 		4CC3A0F51EAF1D2E009B209B /* TYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0F31EAF1D2E009B209B /* TYHomeViewController.m */; };
 		4CC3A0F61EAF1D2E009B209B /* TYHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC3A0F41EAF1D2E009B209B /* TYHomeViewController.xib */; };
 		4CC3A0F91EAF1E21009B209B /* TYLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3A0F81EAF1E21009B209B /* TYLiveViewController.m */; };
-		4CC3A0FE1EAF2057009B209B /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A0FD1EAF2057009B209B /* IJKMediaFramework.framework */; };
 		4CC3A1011EAF2091009B209B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1001EAF2091009B209B /* AudioToolbox.framework */; };
 		4CC3A1031EAF2098009B209B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1021EAF2098009B209B /* AVFoundation.framework */; };
 		4CC3A1051EAF20A2009B209B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3A1041EAF20A2009B209B /* CoreGraphics.framework */; };
@@ -44,6 +46,10 @@
 		4C8E1D841EB18A0D003BCFF7 /* TYCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCaptureViewController.h; sourceTree = "<group>"; };
 		4C8E1D851EB18A0E003BCFF7 /* TYCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCaptureViewController.m; sourceTree = "<group>"; };
 		4C8E1D871EB1A04C003BCFF7 /* TYCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYCaptureViewController.xib; sourceTree = "<group>"; };
+		4CBA9B601EB1D80B00373487 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		4CBA9B8C1EB2DA6000373487 /* TYBeautyFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBeautyFilterViewController.h; sourceTree = "<group>"; };
+		4CBA9B8D1EB2DA6000373487 /* TYBeautyFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBeautyFilterViewController.m; sourceTree = "<group>"; };
+		4CBA9B8E1EB2DA6000373487 /* TYBeautyFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYBeautyFilterViewController.xib; sourceTree = "<group>"; };
 		4CC3A0C81EAF1B28009B209B /* TYLiveAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYLiveAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC3A0CC1EAF1B28009B209B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CC3A0CE1EAF1B28009B209B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,7 +64,6 @@
 		4CC3A0F41EAF1D2E009B209B /* TYHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYHomeViewController.xib; sourceTree = "<group>"; };
 		4CC3A0F71EAF1E21009B209B /* TYLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLiveViewController.h; sourceTree = "<group>"; };
 		4CC3A0F81EAF1E21009B209B /* TYLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLiveViewController.m; sourceTree = "<group>"; };
-		4CC3A0FD1EAF2057009B209B /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		4CC3A1001EAF2091009B209B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4CC3A1021EAF2098009B209B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4CC3A1041EAF20A2009B209B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +101,7 @@
 				4CC3A1191EAF20ED009B209B /* VideoToolbox.framework in Frameworks */,
 				4CC3A1171EAF20E7009B209B /* UIKit.framework in Frameworks */,
 				4CC3A1151EAF20E2009B209B /* QuartzCore.framework in Frameworks */,
+				4CBA9B611EB1D80B00373487 /* IJKMediaFramework.framework in Frameworks */,
 				4CC3A1131EAF20DB009B209B /* OpenGLES.framework in Frameworks */,
 				4CC3A1111EAF20D2009B209B /* MobileCoreServices.framework in Frameworks */,
 				4CC3A10F1EAF20CA009B209B /* MediaPlayer.framework in Frameworks */,
@@ -106,7 +112,6 @@
 				4CC3A1051EAF20A2009B209B /* CoreGraphics.framework in Frameworks */,
 				4CC3A1031EAF2098009B209B /* AVFoundation.framework in Frameworks */,
 				4CC3A1011EAF2091009B209B /* AudioToolbox.framework in Frameworks */,
-				4CC3A0FE1EAF2057009B209B /* IJKMediaFramework.framework in Frameworks */,
 				74C13267DFB8F56A3B4D61D3 /* libPods-TYLiveAppDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +147,64 @@
 			sourceTree = "<group>";
 		};
 		4C8E1D801EB181DC003BCFF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CBA9B5D1EB1D80B00373487 /* Libs(第三方框架) */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA9B5E1EB1D80B00373487 /* ijkplayer */,
+			);
+			path = "Libs(第三方框架)";
+			sourceTree = "<group>";
+		};
+		4CBA9B5E1EB1D80B00373487 /* ijkplayer */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA9B5F1EB1D80B00373487 /* lib */,
+			);
+			path = ijkplayer;
+			sourceTree = "<group>";
+		};
+		4CBA9B5F1EB1D80B00373487 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA9B601EB1D80B00373487 /* IJKMediaFramework.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		4CBA9B631EB1E32900373487 /* Beauty(美颜) */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA9B641EB1E32900373487 /* Controller */,
+				4CBA9B651EB1E32900373487 /* Model */,
+				4CBA9B661EB1E32900373487 /* View */,
+			);
+			path = "Beauty(美颜)";
+			sourceTree = "<group>";
+		};
+		4CBA9B641EB1E32900373487 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA9B8C1EB2DA6000373487 /* TYBeautyFilterViewController.h */,
+				4CBA9B8D1EB2DA6000373487 /* TYBeautyFilterViewController.m */,
+				4CBA9B8E1EB2DA6000373487 /* TYBeautyFilterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CBA9B651EB1E32900373487 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CBA9B661EB1E32900373487 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -192,10 +255,11 @@
 		4CC3A0E21EAF1B7A009B209B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4CC3A0FB1EAF203B009B209B /* ijkplayer */,
+				4CBA9B5D1EB1D80B00373487 /* Libs(第三方框架) */,
 				4CC3A0EE1EAF1D1A009B209B /* Home */,
 				4CC3A0E31EAF1B7A009B209B /* Live(直播) */,
 				4C8E1D7D1EB181DC003BCFF7 /* Capture(采集) */,
+				4CBA9B631EB1E32900373487 /* Beauty(美颜) */,
 				4CC3A0E71EAF1B7A009B209B /* Main */,
 			);
 			path = Classes;
@@ -311,22 +375,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		4CC3A0FB1EAF203B009B209B /* ijkplayer */ = {
-			isa = PBXGroup;
-			children = (
-				4CC3A0FC1EAF203B009B209B /* lib */,
-			);
-			path = ijkplayer;
-			sourceTree = "<group>";
-		};
-		4CC3A0FC1EAF203B009B209B /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				4CC3A0FD1EAF2057009B209B /* IJKMediaFramework.framework */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
 		4CC3A0FF1EAF2090009B209B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8E1D881EB1A04C003BCFF7 /* TYCaptureViewController.xib in Resources */,
+				4CBA9B901EB2DA6000373487 /* TYBeautyFilterViewController.xib in Resources */,
 				4CC3A11E1EAF3A55009B209B /* TYLiveCell.xib in Resources */,
 				4CC3A0F61EAF1D2E009B209B /* TYHomeViewController.xib in Resources */,
 				4CC3A0DB1EAF1B28009B209B /* LaunchScreen.storyboard in Resources */,
@@ -487,6 +536,7 @@
 				4CC3A11D1EAF3A55009B209B /* TYLiveCell.m in Sources */,
 				4CC3A0F91EAF1E21009B209B /* TYLiveViewController.m in Sources */,
 				4CC3A0ED1EAF1BC0009B209B /* TYTabBarViewController.m in Sources */,
+				4CBA9B8F1EB2DA6000373487 /* TYBeautyFilterViewController.m in Sources */,
 				4CC3A0D01EAF1B28009B209B /* AppDelegate.m in Sources */,
 				4CC3A0F51EAF1D2E009B209B /* TYHomeViewController.m in Sources */,
 				4C8E1D861EB18A0E003BCFF7 /* TYCaptureViewController.m in Sources */,
@@ -609,6 +659,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TYLiveAppDemo/Classes/ijkplayer/lib",
+					"$(PROJECT_DIR)/TYLiveAppDemo/Classes/Libs(第三方框架)/ijkplayer/lib",
 				);
 				INFOPLIST_FILE = TYLiveAppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -626,6 +677,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TYLiveAppDemo/Classes/ijkplayer/lib",
+					"$(PROJECT_DIR)/TYLiveAppDemo/Classes/Libs(第三方框架)/ijkplayer/lib",
 				);
 				INFOPLIST_FILE = TYLiveAppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
